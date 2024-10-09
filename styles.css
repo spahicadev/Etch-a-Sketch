@@ -43,7 +43,22 @@
 .etch-a-sketch__canvas-canvas-box-item {
   height: auto;
   width: auto;
-  border: 1px solid blue;
+  border: 1px solid orange;
+}
+
+.etch-a-sketch__canvas-canvas-box--mode-small {
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(50, 1fr);
+}
+
+.etch-a-sketch__canvas-canvas-box--mode-medium {
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+}
+
+.etch-a-sketch__canvas-canvas-box--mode-large {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 
 .etch-a-sketch__control-box {
