@@ -1,0 +1,3 @@
+The goal of this project was to create a simple user interface that makes it easier for users to manage the game. For this purpose, a control module with a range-type input element was implemented, which allows users to interact with the network, while three buttons represent different game modes. By selecting one of these modes, the mesh changes dimensions according to the selected mode.
+
+The interaction of the game is realized by manipulation of DOM and CSSOM, with the use of event listeners, including mouseover for dynamic field color change. Styles are applied in real-time, allowing users to customize their gaming experience.
